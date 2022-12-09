@@ -1,6 +1,12 @@
-<body>
-  <app-nav-menu></app-nav-menu>
-  <div class="container">
-    <router-outlet></router-outlet>
+<!-- <div aria-live="polite" toastContainer> </div> -->
+<h1><a (click)="onClick()">Click</a></h1>
+<div class="container-fluid">
+  <div class="row">
+    <nav-menu></nav-menu>   
+    
+      <router-outlet></router-outlet>
+   
   </div>
-</body>
+ 
+</div>
+

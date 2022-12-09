@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "@angular/cli": "^14.2.1"
+  },
+  "dependencies": {
+    "ngx-toastr": "^15.0.0"
+  }
+}
